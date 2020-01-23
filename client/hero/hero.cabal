@@ -1,0 +1,57 @@
+cabal-version:
+  >=1.10
+
+name:
+  hero
+
+version:
+  0.1.0.0
+
+synopsis:
+  Morpheus GraphQL Client Examples
+
+description:
+  This is a demonstration of various ways to define entities and fetch them with GraphQL queries.
+
+bug-reports:
+  https://github.com/heath/morpheus-examples/issues
+
+license:
+  MIT
+
+license-file:
+  LICENSE
+
+copyright:
+  (c) 2019-2020 Heath Matlock
+
+author:
+  Heath Matlock
+
+category:
+  web
+
+maintainer:
+  heath.matlock@gmail.com
+
+build-type: 
+  Simple
+
+extra-source-files:
+  CHANGELOG.md
+  README.md
+
+executable hero
+  main-is:
+    Main.hs
+  hs-source-dirs:
+    src
+  other-modules:
+     Hero
+  build-depends:
+      base >=4.12 && <4.13
+    , bytestring
+    , morpheus-graphql
+    , text
+  default-language:
+    Haskell2010

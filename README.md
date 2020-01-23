@@ -1,0 +1,1 @@
+This repo extracts the examples from Morpheus-GraphQL into their own self-contained projects. Currently, `basic` shows how to setup a query example for your server, and `sophisticated` dmeonstrates how you might serve queries, mutations, and subscriptions. I'll open a PR when I've added all the examples.

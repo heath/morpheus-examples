@@ -1,0 +1,6 @@
+packages: .
+
+source-repository-package
+  type: git
+  location: https://github.com/morpheusgraphql/morpheus-graphql.git
+  tag: 5ce263fafb6f79f035db884a27079099fb9345e6
